@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <script src="js/script.js" defer></script> -->
+    <title>Stephen portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <h3 class="logo" id="logo">Stephen</h3>
+
+        <div class="hamburger">
+          <img
+            src="Assets/bg-images/handburger.png"
+            alt="handbuger "
+            width="30"
+          />
+        </div>
+        <div class="links">
+          <ul class="nav-links">
+            <li>
+              <a href="#hero">Home</a>
+            </li>
+            <li>
+              <a href="#intro">About</a>
+            </li>
+            <li>
+              <a href="#intro">Resume</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#project">Portfolio</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+
+          <ul class="social-medias">
+            <li>
+              <a href="">
+                <img src="Assets\icons\linkedin.JPG" alt="icon" width="20" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="Assets/icons/github.JPG" alt="icon" width="20" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="Assets/icons/x.JPG" alt="icon" width="20" />
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="Assets/icons/facebook.JPG" alt="icon" width="20" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <img src="Assets/bg-images/hero.JPG" alt="hero-bg" />
+
+        <div class="hero-actions">
+          <h2>
+            I love to create beautiful and efficent
+            <span style="color: blue; font-weight: 800">websites</span>
+          </h2>
+          <div class="btns">
+            <button class="contact-btn" type="button">Contact Me</button>
+            <button class="contact-btn outline_btn" type="button">
+              Download Resume
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="curiculum-vitae">
+        <div class="main_container">
+          <div class="intro" id="intro">
+            <h3>Hi, I am Stephen</h3>
+
+            <p>
+              And i love to create beautiful and efficent websites for my
+              customers. I love going through the entire process with the
+              customer
+            </p>
+          </div>
+          <div class="experiences" id="experiences"></div>
+        </div>
+      </section>
+
+      <section class="services" id="Services">
+        <div class="heading">
+          <h3 class="title">Offered Services</h3>
+
+          <p>
+            Web design and development have been my bread and butter for more
+            than 5 years. During that time i have discovered that i can help
+            startups And comapanies with the following services
+          </p>
+        </div>
+        <div class="services-cont"></div>
+      </section>
+
+      <!-- Assignment 
+      compelete the section -->
+
+      <section class="convincing">
+        <div class="img-cont">
+          <img
+            src="Assets/bg-images/bg1.JPG"
+            alt="convincing-image"
+            class="convincing-image"
+          />
+          <div class="overlay"></div>
+        </div>
+
+        <div class="write-ups">
+          <h4 class="head">Why Work With Me</h4>
+          <p>
+            I am a great communicator and love to invest the necessary time to
+            understand the customer's problem very well
+          </p>
+
+          <h6 class="subhead">DESIGN TOOLS</h6>
+          <p>
+            My favourite design tools are Photoshop and illustrator but i can
+            create designs in Figma, Sketch and Adode XD too
+          </p>
+          <h5 class="subhead">DEVELPOMENT SKILLS</h5>
+          <p>
+            I am familiar and work on a daily basis with HTML,CSS
+            ,JavaScript,Bootstrap and other modern frameworks
+          </p>
+
+          <div class="icons">
+            <img src="Assets/icons/ai.JPG" alt="ai" />
+
+            <img src="Assets/icons/html5.JPG" alt="html5" />
+
+            <img src="Assets/icons/javascipt.JPG" alt="javascipt" />
+
+            <img src="Assets/icons/photoshop.JPG" alt="photoshop" />
+
+            <img src="Assets/icons/css3.JPG" alt="css3" />
+
+            <img src="Assets/icons/bootstrap.JPG" alt="bootstrap" />
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="project">
+        <div class="heading">
+          <h3>Delivered projects</h3>
+          <p>
+            Listed below are some of the most representative projects i,ve
+            worked on. They range from basic web design for presentation site to
+            advanced web developments for online shops
+          </p>
+        </div>
+
+        <div class="inner-cont" id="projects_inner-cont"></div>
+      </section>
+
+      <section class="feedbacks">
+        <div class="heading">
+          <h3>A few words from people that chose to work with me</h3>
+        </div>
+
+        <div class="feedback-cont"></div>
+      </section>
+      <section class="frequently-questions">
+        <div class="divider"></div>
+        <div class="heading">
+          <h3>Frequent questions</h3>
+        </div>
+
+        <div class="inner-cont" id="questions-cont"></div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="heading">
+          <h3>Contact details</h3>
+          <p>
+            For my type of online project please dont hesisate to get in touch
+            with me.The fastest way is to send me your message usung the
+            following email <a href="#">contact@doman.com</a>
+          </p>
+        </div>
+
+        <form action="https://formspree.io/f/xpwjbyrj" method="POST">
+          <input type="text" name="name"  placeholder="Enter Your Name"  class="name-input" />
+          <input type="email" name="email" placeholder="Enter valid email" />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="project details"
+            cols="10"
+            rows="10"
+          ></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        <ul class="social-links">
+          <li>
+            <a href="">
+              <img src="Assets\icons\linkedin.JPG" alt="icon" width="20" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="Assets/icons/github.JPG" alt="icon" width="20" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="Assets/icons/x.JPG" alt="icon" width="20" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="Assets/icons/facebook.JPG" alt="icon" width="20" />
+            </a>
+          </li>
+        </ul>
+        <div class="copyright">
+          <p>&copy;2025 Stephen. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <a href="#hero">
+        <img
+          src="Assets/icons/down (2).PNG"
+          alt="back to top icon"
+          width="20"
+        />
+
+        <script src="js/script.js"></script>
+      </a>
+    </div>
+  </body>
+</html>
